@@ -1,5 +1,18 @@
 #include  "main.h"
 
+/** _format - get format for handles
+  * @format: format handler
+  * Return:
+int (*_format(const char *format))(va_list)
+{
+	int i = 0;
+	convert spe[] =	{
+		{"c", handle_char},
+		{"s", handle_str},
+		{NULL, NULL}
+	};
+}
+
 /**
   * _printf - printing differnt format
   * @format: format intake
