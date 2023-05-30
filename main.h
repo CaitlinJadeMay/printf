@@ -19,6 +19,8 @@ typedef struct convert
 /** Functions prototypes for main operations **/
 int _printf(const char *format, ...);
 int _putchar(char c);
+int handle_char(va_list c);
+int handle_str(va_list s);
 /** End of function prototypes **/
 
 #endif
