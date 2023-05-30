@@ -17,8 +17,8 @@ int handle_str(va_list s)
 	}
 	while (str[i])
 	{
-		_putchar(str);
-		str++;
+		_putchar(str[i]);
+		i++;
 	}
 	return (i);
 }

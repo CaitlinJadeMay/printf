@@ -16,15 +16,15 @@ int (*_format(const char *format))(va_list)
 		{"s", handle_str},
 		{NULL, NULL}
 	};
-	while (spe[i]->a != NULL)
+	while (spe[i].a != NULL)
 	{
-		if (*(spe[i]->a) == *format)
+		if (*(spe[i].a) == *format)
 		{
 			break;
 		}
 		i++;
 	}
-	return (spe[i]->b);
+	return (spe[i].b);
 }
 
 /**
