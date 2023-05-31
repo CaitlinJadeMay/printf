@@ -21,6 +21,8 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int handle_char(va_list c);
 int handle_str(va_list s);
+int handle_int(va_list i);
+int handle_dec(va_list d);
 /** End of function prototypes **/
 
 #endif
