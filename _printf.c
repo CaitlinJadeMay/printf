@@ -13,12 +13,12 @@ int (*_format(const char *format))(va_list)
 {
 	int i;
 
-	i = 0;
 	convert spe[] =	{
 		{"c", handle_char},
 		{"s", handle_str},
 		{NULL, NULL}
 	};
+	i = 0;
 	while (spe[i].a != NULL)
 	{
 		if (*(spe[i].a) == *format)

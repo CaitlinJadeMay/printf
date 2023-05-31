@@ -1,16 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <unistd.h>
 
 /**
   * struct convert - typedef for printing various type
   * @a: type of print
   * @b: function to print
   */
-typedef struct convert
+typedef struct print
 {
 	char *a;
 	int (*b)(va_list);
