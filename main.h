@@ -15,6 +15,7 @@ typedef struct print
 /** Functions prototypes for main operations **/
 int _printf(const char *format, ...);
 int _putchar(char c);
+int *_format(const char *format)(va_list);
 int handle_char(va_list c);
 int handle_str(va_list s);
 int handle_int(va_list i);
