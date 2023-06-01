@@ -22,5 +22,6 @@ int handle_char(va_list c);
 int handle_str(va_list s);
 int handle_int(va_list i);
 int handle_dec(va_list d);
+int handle_binary(va_list b);
 
 #endif
