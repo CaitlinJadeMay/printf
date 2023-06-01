@@ -5,7 +5,7 @@
 #include <stdarg.h>
 
 /**
-  * struct convert - typedef for printing various type
+  * struct print - typedef for printing various type
   * @a: type of print
   * @b: function to print
   */
