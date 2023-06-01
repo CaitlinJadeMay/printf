@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
-* handle_r - A function that prints a string in reverse
+* handle_rev - A function that prints a string in reverse
 * @r: string to print
 * Return: number of printed characters
 */
-int handle_r(va_list r)
+int handle_rev(va_list r)
 {
 char *str;
 int i = 0, count = 0;

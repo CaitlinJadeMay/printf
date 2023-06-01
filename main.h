@@ -34,7 +34,7 @@ int handle_x(va_list x);
 int handle_X(va_list X);
 int handle_p(va_list p);
 int handle_S(va_list S);
-int handle_r(va_list r);
+int handle_rev(va_list r);
 int handle_R(va_list R);
 int handle_add(va_list add);
 int handle_less(va_list less);

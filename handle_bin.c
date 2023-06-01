@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* handle_b - A function that prints an unsigned int i binary notation
+* handle_binary - A function that prints an unsigned int i binary notation
 * @b: unsigned in to print
 * Return: number of printed digits
 */
-int handle_b(va_list b)
+int handle_binary(va_list b)
 {
 unsigned int n, m = 2147483648, j = 1, sum = 0;
 unsigned int a[32];
