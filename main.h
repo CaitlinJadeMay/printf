@@ -25,5 +25,9 @@ int handle_binary(va_list b);
 int handle_float(va_list f);
 int handle_e(va_list e);
 int handle_rev(va_list r);
+int handle_u(va_list u);
+int handle_o(va_list o);
+int handle_x(va_list x);
+int handle_X(va_list X);
 
 #endif

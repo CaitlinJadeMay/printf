@@ -20,6 +20,10 @@ convert spe[] =	{
 {"i", handle_int},
 {"r", handle_rev},
 {"b", handle_binary},
+{"u", handle_u},
+{"o", handle_o},
+{"x", handle_x},
+{"X", handle_X},
 {NULL, NULL}
 };
 i = 0;
